@@ -10,72 +10,30 @@
   <body>
 
     <header>
-    <h1>About Me</h1>
+     <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Favorite Artists</a></li>
+        <li><a href="#">Favorite Movies</a></li>
+        <li><a href="#">Favorite TV Shows</a></li>
+      </ul> 
     </header> 
-
+      
+    <h1>About Me</h1>
     <div class="container-fluid">
       <div class="row">
        <div class="col">
-         <h2>Background</h2>
          <p id = "fact">Click for Fun Fact!</p>
          <!-- Cut down paragraph --> 
-         <p>My name is Allison Jerez, and to be honest it really was just a random name my parents gave me. For most of my life I've lived in South LA and as of now 17 years-old. Other than that, I have two older sisters and am the last of the three to be finishing high school.</p>
+         <p>Text Here</p>
          <img id = "image" src = "https://dornsife.usc.edu/assets/img/news/story/3386.jpg" class="rounded img-fluid" alt="Cinque Terre">
-         <p> In the future I hope to do at least something related to coding. Or at least do one coding competition. Though as of now I'm want to work more with money and how to properly manage it. Which is why I took upon the position as the ASB Treasurer. That is just a little bit about me but there is more below.</p>
+         <p>Text Here.</p>
        </div>
-        <div class="col-4">
-         <h3 style="font-family:'Georgia'">Favorite Artists</h3>
-         <ul>
-          <li><a id = "BTS" href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?si=e47be22b96a849c7">BTS</a></li>
-          <li><a href="https://open.spotify.com/artist/3eCd0TZrBPm2n9cDG6yWfF?si=08650124d4dc4ca6">DEAN</a></li>
-          <li><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4?si=9c7d33662eda46f9">Drake</a></li>
-          <li><a href="https://open.spotify.com/artist/77SW9BnxLY8rJ0RciFqkHh?si=85e10faaa75142c9">The Neighbourhood</a></li>
-          <li><a href="https://open.spotify.com/artist/3mIj9lX2MWuHmhNCA7LSCW?si=6ea84381260848ac">The 1975</a></li>
-         </ul>
-        </div>
       </div> 
     </div>
 
-
-      
-    <div class="float-container">
-      <div class="float-child">
-        <div class="green">
-          <h3>Top Movies</h3>
-            <p id = "mov1">Want a movie that made me so anxious?</p>
-            <p>Jarhead</p>
-            <p>In this Corner of the World</p>
-        </div>
-      </div>
-      <div class="float-child">
-        <div class="blue">
-          <h3>Top TV Shows</h3>
-            <p>Money Heist</p>
-            <p>Superstore</p>
-            <p>The Great Pretender</p>
-        </div>
-    </div>
-
     <script>
-      // Click sentence "Click for..." to receive the fun fact
-      document.addEventListener("click", function(){
-        document.getElementById("fact").innerHTML = "I was a silver tooth kid :/";
-      });
-
-      // Double Click question "Want a movie...?" for the answer 
-      document.addEventListener("dblclick", function(){
-        document.getElementById("mov1").innerHTML = "Bad Genius";
-      });
-
-      // Copy BTS to copy Spotify link and to receive a message 
-      document.addEventListener("copy", function(){
-        document.getElementById("BTS").innerHTML = "Enjoy!";
-      });
-
-      // I'm not sure how to add the same event to mutiple elements, that part was confusing
-      // So I did what I could :/  
+    
     </script>
 
-    
   </body>
 </html>

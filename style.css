@@ -1,21 +1,10 @@
-.float-container {
-  padding: 20px;
-}
-
-.float-child {
-  width: 50%;
-  float: left;
-  padding: 20px;
-  border-radius: 25px;
-} 
 
 header {
-  text-align: center;
-  margin: 0px 100px 0px 100px;
+  background: rgb(151, 144, 144);
 }
 
-h3 {
-  text-align: center;
+body {
+  background: rgb(185, 183, 183);
 }
 
 img {
@@ -29,3 +18,7 @@ ul {
   list-style-type: none;
 }
 
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
