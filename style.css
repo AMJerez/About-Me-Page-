@@ -1,10 +1,10 @@
 
 header {
-  background: rgb(151, 144, 144);
+  background: #867C99;
 }
 
 body {
-  background: rgb(185, 183, 183);
+  background: #867C99;
 }
 
 img {
@@ -13,48 +13,114 @@ img {
 }
 
 .navbar-nav {
-  padding: 10px;
   margin-left: auto;
 }
 
+.navbar-nav > li {
+  padding-left:30px;
+  padding-right:30px;
+}
+
 .nav-link {
-  color: black;
+  font-family: 'Italiana', serif;
+  font-size: 25px;
+  color: #261834;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  background-color: yellow;
-  color:blue; 
+  background-color: #9D98B6;
+  color: #4A3C58; 
 }
 
 .col {
-  background-color: lightgrey;
+  background-color: #9D98B6;
   width: auto;
-  border: 5px solid rgb(115, 119, 115);
+  border: 5px solid #2B3355;
   padding: 50px;
   margin: 20px;
 }
 #box {
-  background-color: lightgrey;
+  font-family: 'Nunito', sans-serif;
+  color: #261834;
+  background-color: #9D98B6;
   width: auto;
-  border: 5px solid rgb(115, 119, 115);
+  border: 5px solid #2B3355;
   padding: 50px;
   margin: 20px;
 }
 
 #title {
+  font-family: 'Inter', sans-serif;
+  color: #261834;
   text-align: left;
+  font-size: 70px;
   padding: 10px;
   margin: 10px;
 }
 
 #cap {
   text-align: center;
+  font-size: 20px;
 }
 
 #art {
+  color: #261834;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
 }
 
 #movs {
   text-align: center;
+}
+
+#addy {
+  font-family: 'Italiana', serif;
+}
+
+#star {
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  color: #261834;
+}
+
+#name {
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  color: #261834;
+}
+
+#label {
+  font-family: 'Italiana', serif;
+  font-size: 25px;
+  color: #261834;
+}
+
+#cut {
+  font-family: 'Inter', sans-serif;
+  font-size: 38px;
+}
+
+#cat {
+  font-size: 25px;
+}
+
+#txsz {
+  font-size: 28px;
+}
+
+#bean {
+  font-size: 20px;
+}
+
+#first {
+  font-size: 20px;
+}
+#second {
+  font-size: 20px;
+}
+#third {
+  font-size: 20px;
+}
+#forth {
+  font-size: 20px;
 }
