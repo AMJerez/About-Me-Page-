@@ -6,29 +6,39 @@
     <title>repl.it</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Italiana&family=Nunito:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
 
-    <header>
-     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Favorite Artists</a></li>
-        <li><a href="#">Favorite Movies</a></li>
-        <li><a href="#">Favorite TV Shows</a></li>
+    <!-- Nav Bar --> 
+    <nav class="navbar navbar-expand-sm">
+      <a class="navbar-brand" href="index.html" style="padding:0px;">
+      <img src="https://i.ibb.co/fMQLQNr/Logo-1.png" style="height:100%;">
+      </a>
+     <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="artist.html">Favorite Artists</a></li>
+        <li class="nav-item"><a class="nav-link" href="movie.html">Favorite Movies</a></li>
+        <li class="nav-item"><a class="nav-link" href="shows.html">Favorite TV Shows</a></li>
       </ul> 
-    </header> 
-      
-    <h1>About Me</h1>
-    <div class="container-fluid">
-      <div class="row">
-       <div class="col">
-         <p id = "fact">Click for Fun Fact!</p>
-         <!-- Cut down paragraph --> 
-         <p>Text Here</p>
-         <img id = "image" src = "https://dornsife.usc.edu/assets/img/news/story/3386.jpg" class="rounded img-fluid" alt="Cinque Terre">
-         <p>Text Here.</p>
-       </div>
-      </div> 
+    </nav> 
+    
+
+    <h1 id="title">About Me</h1>
+    <div class="container-fluid" id="box">
+      <div class="row" id="info">
+        <div class="col-5">
+          <img id = "image" src = "https://mk0wheelfunrentqnvtf.kinstacdn.com/wp-content/uploads/2018/02/CA-Los-Angeles-Echo-Park-Swan-Boat-Night-Rides-HERO.gif" class="rounded img-fluid" alt="Cinque Terre">
+          <p class="text-muted" id="cap">Echo Park</p>
+        </div>
+        <div class="col-7">
+          <h3>Allison Jerez</h3>
+          <p>Paragraph about me</p>
+        </div>
+      </div>
+
     </div>
 
     <script>
